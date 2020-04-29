@@ -3,8 +3,8 @@
     {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
       "firstName": "Freda",
-      "lastName": "Grady",
-      "email": "Leann_Berge@gmail.com",
+      "lastName": "Garcia",
+      "email": "freddygarcia@gmail.com",
       "jobTitle": "Legacy Brand Director",
       "twitter": "FredaGrady22221-7573",
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
@@ -440,6 +440,46 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Dennys",
+      "lastName": "Belduma",
+      "email": "dennys94@gmail.com",
+      "jobTitle": "Developer",
+      "twtter": "dennysstewars",
+      "id": "ErbiNID"
+    },
+    {
+      "firstName": "Juanca",
+      "lastName": "Calero",
+      "email": "juancaq@gmail.com",
+      "jobTitle": "Wokrers",
+      "twitter": "juancacalero",
+      "id": "NO4hFFA"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "jobTitle": "",
+      "twitter": "",
+      "id": "XtIk3vp"
+    },
+    {
+      "firstName": "Edwin",
+      "lastName": "Belduma",
+      "email": "edwineverth94@gmail.com",
+      "jobTitle": "Developer",
+      "twitter": "edwineverth994",
+      "id": "XqwTJx9"
+    },
+    {
+      "firstName": "Susana",
+      "lastName": "Castro",
+      "email": "susanq@gmail.com",
+      "jobTitle": "Marketing",
+      "twitter": "susan",
+      "id": "asLFapf"
     }
   ]
 }

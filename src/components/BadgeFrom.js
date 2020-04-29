@@ -1,5 +1,4 @@
 import React from "react";
-
 class BadgeFrom extends React.Component {
   //state = {};
 
@@ -20,11 +19,11 @@ class BadgeFrom extends React.Component {
     console.log("Form was submitted");
     console.log(this.state);
   };
+
   render() {
     return (
       <div>
-        <h1>New Attendant</h1>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.props.onSubmit}>
           <div className="form-group">
             <label htmlFor="">FirstName</label>
             <input
@@ -71,8 +70,8 @@ class BadgeFrom extends React.Component {
               onChange={this.props.onChange}
               className="form-control"
               type="text"
-              name="twtter"
-              value={this.props.formValues.twtter}
+              name="twitter"
+              value={this.props.formValues.twitter}
             />
           </div>
           <button
@@ -82,6 +81,11 @@ class BadgeFrom extends React.Component {
           >
             Save
           </button>
+          {this.props.error && (
+            <div>
+              <p className="text-danger">{this.props.error.message}/</p>
+            </div>
+          )}
         </form>
       </div>
     );
